@@ -1,0 +1,161 @@
+{
+  "metadata": {
+    "data_sha256": "6f9aaca735f8fed974af62284aa4b371ecb4ef6f67b52fca50d4d00e76e7a9db",
+    "ner_model_sha256": "87d405164cfd7aaf06f1727e1dc8849ec05dea8088877aac1fa31d242145c16e",
+    "encoder": "cointegrated/rubert-tiny2",
+    "encoder_revision": "e8ed3b0c8bbf4fb6984c3de043bf7d2f4e5969ae",
+    "encoder_weight_sha256": "26ebb6db2a68593c54c74902d7a74f332da66297693f965cc9f1b0af4abf3894",
+    "layers": 3,
+    "idf": false,
+    "rescale_with_baseline": false,
+    "bert_score_package": "0.3.13",
+    "transformers": "4.51.3",
+    "torch": "2.6.0+cpu",
+    "device": "cpu",
+    "seed_base": 625,
+    "window_chars": 450,
+    "max_input_subtokens": 452,
+    "segments": 1080,
+    "batch_size": 24
+  },
+  "all": {
+    "synonym": {
+      "precision": 0.9213600628496432,
+      "recall": 0.9305609430630507,
+      "f1": 0.9258456429863836
+    },
+    "entity_mask": {
+      "precision": 0.742560668339481,
+      "recall": 0.7719463934292007,
+      "f1": 0.7558976441114574
+    },
+    "full_mask": {
+      "precision": 0.31953493531867455,
+      "recall": 0.13788820976405736,
+      "f1": 0.19050209940046087
+    },
+    "texts": 316,
+    "delta_f1_synonym_entity_mask": 0.16994799887492618,
+    "delta_f1_synonym_full_mask": 0.7353435435859228,
+    "paired_docs_syn_gt_entity_mask": 287,
+    "paired_docs_syn_lt_entity_mask": 0,
+    "paired_bootstrap_95pct_delta": [
+      0.15728217251941762,
+      0.18182452101201063
+    ]
+  },
+  "modified": {
+    "synonym": {
+      "precision": 0.9134138693012629,
+      "recall": 0.9235444552491499,
+      "f1": 0.9183526962797185
+    },
+    "entity_mask": {
+      "precision": 0.7165476370866131,
+      "recall": 0.7489026514711129,
+      "f1": 0.7312322515254444
+    },
+    "full_mask": {
+      "precision": 0.3266430782324215,
+      "recall": 0.13854276830136092,
+      "f1": 0.19238697964514176
+    },
+    "texts": 287,
+    "delta_f1_synonym_entity_mask": 0.18712044475427414,
+    "delta_f1_synonym_full_mask": 0.7259657166345768,
+    "paired_docs_syn_gt_entity_mask": 287,
+    "paired_docs_syn_lt_entity_mask": 0,
+    "paired_bootstrap_95pct_delta": [
+      0.17573534006885114,
+      0.19810956577797884
+    ]
+  },
+  "anonymization": {
+    "recognized": 3014,
+    "synonymized": 3014,
+    "masked_on_error": 0,
+    "normalized_groups": 2219,
+    "guessed_morphology": 429
+  },
+  "masked_on_error_by_type": {},
+  "by_source": {
+    "factrueval_testset": {
+      "synonym": {
+        "precision": 0.9631826426368069,
+        "recall": 0.9669112603622272,
+        "f1": 0.9649890511654977
+      },
+      "entity_mask": {
+        "precision": 0.8566083896178744,
+        "recall": 0.9247256115632199,
+        "f1": 0.8877226243105347
+      },
+      "full_mask": {
+        "precision": 0.2186316548136276,
+        "recall": 0.12123576819648715,
+        "f1": 0.15515787603729636
+      },
+      "texts": 132,
+      "delta_f1_synonym_entity_mask": 0.07726642685496299,
+      "delta_f1_synonym_full_mask": 0.8098311751282014,
+      "paired_docs_syn_gt_entity_mask": 127,
+      "paired_docs_syn_lt_entity_mask": 0,
+      "paired_bootstrap_95pct_delta": [
+        0.0694033246175998,
+        0.0853613027336235
+      ]
+    },
+    "synthetic": {
+      "synonym": {
+        "precision": 0.87506044767797,
+        "recall": 0.8901560764759779,
+        "f1": 0.8824291814118623
+      },
+      "entity_mask": {
+        "precision": 0.6098554022610188,
+        "recall": 0.6116955012083054,
+        "f1": 0.6105266857892275
+      },
+      "full_mask": {
+        "precision": 0.41247989498078824,
+        "recall": 0.15257207099348308,
+        "f1": 0.22220586165785788
+      },
+      "texts": 160,
+      "delta_f1_synonym_entity_mask": 0.2719024956226348,
+      "delta_f1_synonym_full_mask": 0.6602233197540044,
+      "paired_docs_syn_gt_entity_mask": 160,
+      "paired_docs_syn_lt_entity_mask": 0,
+      "paired_bootstrap_95pct_delta": [
+        0.26646320670843127,
+        0.27744763493537905
+      ]
+    },
+    "synthetic_negative": {
+      "synonym": {
+        "precision": 0.9999999751647314,
+        "recall": 0.9999999751647314,
+        "f1": 0.9999999751647314
+      },
+      "entity_mask": {
+        "precision": 0.9999999751647314,
+        "recall": 0.9999999751647314,
+        "f1": 0.9999999751647314
+      },
+      "full_mask": {
+        "precision": 0.2548699136823416,
+        "recall": 0.13158423018952212,
+        "f1": 0.17353691284855208
+      },
+      "texts": 24,
+      "delta_f1_synonym_entity_mask": 0.0,
+      "delta_f1_synonym_full_mask": 0.8264630623161793,
+      "paired_docs_syn_gt_entity_mask": 0,
+      "paired_docs_syn_lt_entity_mask": 0,
+      "paired_bootstrap_95pct_delta": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

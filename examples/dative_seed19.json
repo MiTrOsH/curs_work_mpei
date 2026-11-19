@@ -1,0 +1,33 @@
+{
+  "text": "Аникита Федосеев передал Прасковье Федосеевой что-то",
+  "entities": [
+    [
+      "NAME",
+      0,
+      7
+    ],
+    [
+      "SURNAME",
+      8,
+      16
+    ],
+    [
+      "NAME",
+      25,
+      34
+    ],
+    [
+      "SURNAME",
+      35,
+      45
+    ]
+  ],
+  "warnings": [],
+  "stats": {
+    "recognized": 4,
+    "synonymized": 4,
+    "masked_on_error": 0,
+    "normalized_groups": 3,
+    "guessed_morphology": 0
+  }
+}

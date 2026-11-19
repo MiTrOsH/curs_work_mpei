@@ -1,0 +1,75 @@
+{
+  "corpus_revision": "dfe96237fce79fde13b2021d1938587e4ea3042e",
+  "corpus_split_seed": 42,
+  "synthetic_seeds": {
+    "train": 4104,
+    "validation": 4204,
+    "test": 4304
+  },
+  "splits": {
+    "train": {
+      "texts": 386,
+      "sources": {
+        "factrueval_devset": 98,
+        "synthetic": 288
+      },
+      "tokens": 38459,
+      "with_adjusted_corpus_spans": 2,
+      "entities": {
+        "SURNAME": 841,
+        "NAME": 728,
+        "INN": 144,
+        "PASSPORT": 144,
+        "BANK_CARD": 144,
+        "OGRNIP": 144,
+        "IP": 144,
+        "EMAIL": 144,
+        "BIRTH_CERT": 144,
+        "KLADR": 144
+      }
+    },
+    "validation": {
+      "texts": 72,
+      "sources": {
+        "factrueval_devset": 24,
+        "synthetic": 48
+      },
+      "tokens": 7761,
+      "with_adjusted_corpus_spans": 0,
+      "entities": {
+        "SURNAME": 186,
+        "NAME": 137,
+        "INN": 24,
+        "PASSPORT": 24,
+        "BANK_CARD": 24,
+        "OGRNIP": 24,
+        "IP": 24,
+        "EMAIL": 24,
+        "BIRTH_CERT": 24,
+        "KLADR": 24
+      }
+    },
+    "test": {
+      "texts": 316,
+      "sources": {
+        "factrueval_testset": 132,
+        "synthetic": 160,
+        "synthetic_negative": 24
+      },
+      "tokens": 70237,
+      "with_adjusted_corpus_spans": 0,
+      "entities": {
+        "SURNAME": 1428,
+        "NAME": 970,
+        "INN": 80,
+        "PASSPORT": 80,
+        "BANK_CARD": 80,
+        "OGRNIP": 80,
+        "IP": 80,
+        "EMAIL": 80,
+        "BIRTH_CERT": 80,
+        "KLADR": 80
+      }
+    }
+  }
+}

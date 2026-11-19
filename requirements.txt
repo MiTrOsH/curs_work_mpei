@@ -1,0 +1,10 @@
+torch==2.6.0
+transformers==4.51.3
+tokenizers==0.21.4
+huggingface-hub==0.36.2
+safetensors==0.5.3
+numpy==2.3.5
+pymorphy3==2.0.6
+pymorphy3-dicts-ru==2.4.417150.4580142
+Faker==37.8.0
+natasha==1.6.0
